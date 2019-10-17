@@ -1,0 +1,61 @@
+       
+
+            /*
+               Anatomía de la reglas CSS:
+
+               Selector{
+                   propiedad: valor
+                   propiedad: valor
+                   propiedad: valor;
+               }
+            */
+            body {
+                  font-family: "Helvetica", "Arial", "Open Sans", sans-serif;
+                  color: black;
+                  background-color:white;
+                  width: 480px;
+                  margin-left:auto;
+                  margin-right:auto;
+                  background-color:#ceffdf;
+            }
+
+
+
+            p{
+                font-size: 22px;
+                line-height: 200%;
+                text-align: justify;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            h1 {
+                font-family: "Helvetica", "Arial", "Open Sans", sans-serif;         
+                color: black;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            img {
+                width: 320px;
+                margin:auto;
+                display:block;
+                }
+
+
+            a{
+                text-decoration: none;
+                border:1px solid black;
+                width:180px;
+                height:50px;
+                text-align: center;
+                background-color:#196763;
+                color:#beff3f;
+
+            }
+
+            a:hover{
+                background-color:#beff3f;
+                color:#196763;
+            }
+          
