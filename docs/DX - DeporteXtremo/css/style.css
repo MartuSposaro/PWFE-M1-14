@@ -37,6 +37,7 @@ header a {
 }
 nav {
 	float:right;
+	padding-right:.5rem;
 }
 
 nav li {
@@ -45,6 +46,5 @@ nav li {
 }
 
 nav li a {
-	display:block;
 	padding:.5rem;
 }
