@@ -7,12 +7,15 @@
 
 body {
 	font-family:"Helvetica", "Arial", "Open Sans", sans-serif;
-	color: #333;
+	background-color: #333;
 	margin:0;
+	overflow-x:hidden;
     }
+
 a {
 	text-decoration: none;
 }
+
 header {
 	background-color: #333;
 	overflow:auto;
@@ -21,7 +24,9 @@ header {
 header h1, header a {
 	color:#D9D9D9;
 }
+
 header h1 {
+	display: inline-block;
 	font-size: 2.4rem;
 	margin:0;
 	float:left;
@@ -29,7 +34,8 @@ header h1 {
 	padding:.5rem;
 	background-image: url("../img/logo.png");
 	background-repeat:no-repeat;
-	padding-left:7rem;
+	background-position: left-center;
+	padding-left:8rem;
 }
 
 header a {
@@ -37,7 +43,7 @@ header a {
 }
 nav {
 	float:right;
-	padding-right:.5rem;
+	font-size: 1.5rem;
 }
 
 nav li {
@@ -46,5 +52,48 @@ nav li {
 }
 
 nav li a {
+	display:block;
 	padding:.5rem;
+}
+
+img {
+	display:block;
+	width:100%;
+}
+#noticias-destacadas {
+	width:300vw;
+	overflow:auto;
+	position: relative;
+	animation: 15s slider infinite;
+	/*
+	right: 
+	top:;
+	bottom:;
+	*/
+}
+
+#noticias-destacadas figure{
+	float: left;
+	width:-100vw;
+}
+
+#noticias-destacadas h2 {
+	background-color: #333;
+	color:#FFF;
+    font-size: 3.6rem;
+    font-weight: bold;
+    padding:.5rem;
+}
+
+@keyframes slider {
+	/*INICIO ANIMACION*/
+
+    0% {left:0}
+    20% {left:0}
+    40% {left:-100vw}
+    60% {left:-100vw;}
+    80% {left:-200}
+    100% {left: -200vw}
+
+	/*FIN DE ANIMACIÓN*/
 }
