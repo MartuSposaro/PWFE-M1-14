@@ -63,7 +63,7 @@ img {
 #noticias-destacadas {
 	width:300vw;
 	overflow:auto;
-	position: relative;
+	position:relative;
 	animation: 15s slider infinite;
 	/*
 	right: 
@@ -91,8 +91,8 @@ img {
     0% {left:0}
     20% {left:0}
     40% {left:-100vw}
-    60% {left:-100vw;}
-    80% {left:-200}
+    60% {left:-100vw}
+    80% {left:-200vw}
     100% {left: -200vw}
 
 	/*FIN DE ANIMACIÓN*/
