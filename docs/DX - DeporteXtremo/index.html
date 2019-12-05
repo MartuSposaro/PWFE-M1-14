@@ -82,5 +82,27 @@
             </main>
     <!--AREA DE JAVASCRIPT-->
     <script> src="js/main.js" </script>
+
+    <script>
+    	//Aca vamos a programar un mini navegador
+    	const ajax = new XHMLHttpRequest ()
+
+    	ajax.open("GET", "noticias.json")
+
+    	ajax.onload = function(){ //<-- Peticion Exitosa!
+
+    		if(ajax.status == 200) {//<-- Respuesta Exitosa!
+    		//ACA VOY A USAR LOS DATOS
+    		aler("Mira la consola")
+
+    		console.log(ajax.response)
+
+    		}
+
+    	}
+
+    	ajax.onerror =
+
+    </script>
     </body>
 </html>
